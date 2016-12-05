@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message Center</title>
+    <link rel="stylesheet" type="text/css" href="styles/Homescreen.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1> CheapoMAil </h1>
+        <hr>
+        <div class="menu">
+            <div><a href="inbox.php"><h2>Inbox</h2></a></div>
+            <div><a href="compose.html"><h2 class="selected">Compose</h2></a></div>
+            <div><a href="logout.php"><h2>Logout</h2></a></div>
+        </div>
+        <div class="content">
+            <form form action="compose.php"  method="post">
+                <input type="text" placeholder="To" name="to" class="headlines"><br>
+                <input type="text" placeholder="Subject" name="subject" class="headlines"><br>
+                <input type="text" placeholder="Message" name="message" class="message"><br>
+                <input type="submit" id="send" name="send"  value="send" class="send">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

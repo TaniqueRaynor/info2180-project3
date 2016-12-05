@@ -1,0 +1,45 @@
+body {
+    font-family: "Tahoma","sans-serif";
+    background: url("../images/CheaWallpapers.jpg");
+}
+form {
+    background-image: inherit;
+    background-color: #434DFC;
+    background-position: -475px -190px ;
+    border: 2px solid white;
+    padding: 20px;
+    width: 360px;
+    margin:  190px auto;
+    color: white;
+    white-space: nowrap;
+}
+span {
+    font-family:"Brush Script MT","Vivaldi","sans-serif";
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+}
+.label1{
+	font-family: "arial","sans-serif";
+	font-size: 15px;
+	padding-right:100px;
+	display: inline;
+}
+.label2{
+	font-family: "arial","sans-serif";
+	font-size: 15px;
+	padding-right:105px;
+	display: inline;
+}
+.label3{
+	font-family: "arial","sans-serif";
+	font-size: 15px;
+	padding-right:105px;
+	display: inline;
+}
+.error{
+    background-color: red;
+}
+.valid{
+    background-color: white;
+}
